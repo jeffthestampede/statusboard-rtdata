@@ -41,15 +41,16 @@ RottenStatusboard::Application.routes.draw do
 
   # Sample resource route within a namespace:
   #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
+  #     # Directs /admin/products/* to Admin::PsroductsController
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'rotten#data'
-  get 'statusboard.json' => 'rotten#data'
+  root :to => 'rotten#index'
+  get 'statusboard.json' => 'rotten#statusboard'
+  get 'morris.json' => 'rotten#mmorris'
 
   # See how all your routes lay out with "rake routes"
 
