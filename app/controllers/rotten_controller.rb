@@ -18,6 +18,9 @@ class RottenController < ApplicationController
     @output = {"graph" =>
                 {
                   "title" => "Ratings of Top 10 Movies This Week",
+                  "xAxis" => {
+                        "showEveryLabel" : true
+                  },
                   "color" => "yellow",
                   "datasequences" => [
                     {
