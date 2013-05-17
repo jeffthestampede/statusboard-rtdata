@@ -21,7 +21,6 @@ class RottenController < ApplicationController
                   "xAxis" => {
                         "showEveryLabel" => true
                   },
-                  "color" => "yellow",
                   "datasequences" => [
                     {
                       "title" => "Movies",
