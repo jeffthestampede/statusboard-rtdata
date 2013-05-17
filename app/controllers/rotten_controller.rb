@@ -18,7 +18,7 @@ class RottenController < ApplicationController
     @output = {"graph" =>
                 {
                   "title" => "Ratings of Top 10 Movies This Week",
-                  "color" => "yellow"
+                  "color" => "yellow",
                   "datasequences" => [
                     {
                       "title" => "Movies",
