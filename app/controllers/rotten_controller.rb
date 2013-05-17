@@ -19,7 +19,7 @@ class RottenController < ApplicationController
                 {
                   "title" => "Ratings of Top 10 Movies This Week",
                   "xAxis" => {
-                        "showEveryLabel" : true
+                        "showEveryLabel" => true
                   },
                   "color" => "yellow",
                   "datasequences" => [
